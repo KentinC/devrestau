@@ -1,0 +1,58 @@
+/*
+Error: Invalid US-ASCII character "\xC3"
+        on line 1 of /Users/parana1606/Desktop/utiliserScss/src/styles/_config.scss
+        from line 2 of /Users/parana1606/Desktop/utiliserScss/src/styles/app.scss
+
+1: $primary-color:#F00358; // le signe $ permet de créer une variable à appeler plus loin ou dans un autre fichier
+2: $secondary-color:#032879;
+
+Backtrace:
+/Users/parana1606/Desktop/utiliserScss/src/styles/_config.scss:1
+/Users/parana1606/Desktop/utiliserScss/src/styles/app.scss:2
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1323:in `rescue in block in find_encoding_error'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1320:in `block in find_encoding_error'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each_with_index'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `find_encoding_error'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:896:in `check_sass_encoding'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:423:in `check_encoding!'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:379:in `_to_tree'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:299:in `to_tree'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:313:in `block in visit_import'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/private/var/folders/6v/x3qqg0gn6936tq9fq02yqj6c0000gn/T/AppTranslocation/67555739-F1C0-4BA0-A696-AB4FC100EB15/d/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid US-ASCII character \"\xC3\"\A         on line 1 of /Users/parana1606/Desktop/utiliserScss/src/styles/_config.scss\A         from line 2 of /Users/parana1606/Desktop/utiliserScss/src/styles/app.scss\A \A 1: $primary-color:#F00358; // le signe $ permet de créer une variable à appeler plus loin ou dans un autre fichier\A 2: $secondary-color:#032879;"; }
