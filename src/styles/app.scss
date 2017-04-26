@@ -1,0 +1,11 @@
+@import 'body'; //importer le fichier _body.scss
+@import 'config';
+@import 'header/header-topBar';
+@import 'header/header-main';
+@import 'header/header-menu';
+body {
+  margin: 0;
+  padding: 0;
+}
+
+//deezfez
